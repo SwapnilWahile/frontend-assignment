@@ -4,6 +4,8 @@ import Hero from "../../components/Hero/Hero";
 // import Partners from "../../components/Partners/Partners";
 
 import "./Home.scss";
+import SectionContact from "../../components/SectionContact/SectionContact";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <Navbar />
       <Hero />
       {/* <Partners /> */}
+      <SectionContact />
+      <Footer />
     </div>
   );
 };

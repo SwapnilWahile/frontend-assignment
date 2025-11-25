@@ -1,0 +1,81 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.contact-section {
+  width: 100%;
+  background: #000a1f;
+  padding: 120px 0;
+
+  .contact-container {
+    @include container;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  .contact-image img {
+    width: 540px;
+    height: 453px;
+    opacity: 0.6;
+
+    @media (max-width: 768px) {
+      width: 300px;
+      height: auto;
+    }
+  }
+
+  .contact-form {
+    width: 485px;
+    @media (max-width: 900px) {
+      width: 95% !important;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      input,
+      textarea {
+        width: 93%;
+        padding: 14px 16px;
+        background: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 15px;
+      }
+
+      textarea {
+        height: 100px;
+      }
+
+      button {
+        background: linear-gradient(90deg, #4c46ff, #0094ff);
+        padding: 12px 20px;
+        border: none;
+        color: #fff;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 150px;
+
+        @media (max-width: 900px) {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
