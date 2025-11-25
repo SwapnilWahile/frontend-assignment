@@ -7,9 +7,9 @@
 
   display: flex;
   justify-content: space-between;
-//   gap: 2vw;
+  //   gap: 2vw;
   align-items: center;
-  margin: 0 17vw 0 21vw;
+  margin: 0 17vw 0 13vw;
 
   .logo {
     font-size: 22px;
@@ -60,7 +60,7 @@
     }
 
     .nav-btn.hamburger {
-      display: flex; 
+      display: flex;
     }
   }
 }
