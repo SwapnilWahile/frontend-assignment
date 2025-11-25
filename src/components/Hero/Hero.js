@@ -3,13 +3,14 @@ import "./Hero.scss";
 import character from "../../assets/images/hero/character.png";
 import bulb from "../../assets/images/hero/bulb.png";
 import planet from "../../assets/images/hero/planet.png";
+// import cloud from "../../assets/images/hero/cloud.png"
 
 const Hero = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
         <div className="text-bulb">
-          <span>We Provide Smart Business  Solutions</span> <img src={bulb} className="floating bulb" alt="bulb" /> 
+          <div>We Provide Smart Business  Solutions</div> <img src={bulb} className="floating bulb" alt="bulb" /> 
         </div>
         <p>
           Grow your Business With Us Best Business Solutions
