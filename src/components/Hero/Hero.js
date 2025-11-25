@@ -1,0 +1,27 @@
+import React from "react";
+import "./Hero.scss";
+import character from "../../assets/images/hero/character.png";
+import bulb from "../../assets/images/hero/bulb.png";
+import planet from "../../assets/images/hero/planet.png";
+
+const Hero = () => {
+  return (
+    <section className="hero-section">
+      <div className="hero-content">
+        <div className="text-bulb">
+          <span>We Provide Smart Business  Solutions</span> <img src={bulb} className="floating bulb" alt="bulb" /> 
+        </div>
+        <p>
+          Grow your Business With Us Best Business Solutions
+        </p>
+      </div>
+
+      <div className="hero-images">
+        <img src={character} alt="character" className="main-character" />
+        <img src={planet} className="floating planet" alt="planet" />
+      </div>
+    </section>
+  );
+};
+
+export default Hero;

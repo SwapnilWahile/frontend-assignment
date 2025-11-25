@@ -1,0 +1,17 @@
+@import "./variables";
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin responsive-text($min, $max) {
+  font-size: clamp($min, $max, $max);
+}
+
+@mixin container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}

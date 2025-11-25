@@ -1,0 +1,19 @@
+@import './variables';
+@import './mixins';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  background: $dark-bg;
+  color: $primary-color;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
