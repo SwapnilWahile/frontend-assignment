@@ -1,6 +1,8 @@
 import React from "react";
 import "./SectionContact.scss";
 import lady from "../../assets/images/contact/lady-illustration.png";
+import curve from "../../assets/images/contact/curve.png";
+
 
 const SectionContact = () => {
   return (
@@ -12,6 +14,8 @@ const SectionContact = () => {
         </div>
 
         <div className="contact-form">
+          <span className="contact-bg-text">CALL</span>
+          <img src={curve} alt="curve" className="curve"/>
           <h2>
             Ready to Work Together <br /> In New Projects ?
           </h2>
