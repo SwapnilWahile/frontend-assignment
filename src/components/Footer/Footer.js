@@ -16,12 +16,15 @@ const Footer = () => {
             height={49}
             width={125}
           ></img>
-        
-          <div className="social-icons">
-            <i className="fa-brands fa-facebook-f"></i>
-            <i className="fa-brands fa-twitter"></i>
-            <i className="fa-brands fa-linkedin-in"></i>
-            <i className="fa-brands fa-instagram"></i>
+
+          <div className="icon-container">
+            Follow
+            <div className="social-icons">
+              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-instagram"></i>
+            </div>
           </div>
         </div>
 
