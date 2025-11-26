@@ -17,16 +17,41 @@
     color: #fff;
   }
 
+  // .nav-links {
+  //   list-style: none;
+  //   display: flex;
+  //   gap: 3.7vw;
+  //   color: #fff;
+
+  //   li {
+  //     cursor: pointer;
+  //     font-size: 16px;
+  //   }
+  // }
+
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 3.7vw;
-    color: #fff;
+    gap: 3vw;
+  }
 
-    li {
-      cursor: pointer;
-      font-size: 16px;
-    }
+  .nav-links li {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .chevron {
+    font-size: 25px;
+    width: -0.5vw;
+
+    opacity: 1; /* subtle like Figma */
+    transition: 0.2s;
+    transform: rotate(90deg);
   }
 
   .nav-btn.hamburger {
