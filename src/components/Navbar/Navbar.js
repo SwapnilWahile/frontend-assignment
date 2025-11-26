@@ -13,7 +13,7 @@ const Navbar = () => {
       <ul className="nav-links">
         <li>
           <Link to="hero" smooth={true} duration={600} offset={-50}>
-            Home <span className="chevron">›</span>
+            <u>Home</u> <span className="chevron">›</span>
           </Link>
         </li>
         <li>
