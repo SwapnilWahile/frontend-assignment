@@ -3,11 +3,15 @@ import "./Hero.scss";
 import character from "../../assets/images/hero/character.png";
 import bulb from "../../assets/images/hero/bulb.png";
 import planet from "../../assets/images/hero/planet.png";
-// import cloud from "../../assets/images/hero/cloud.png"
+import cloud from "../../assets/images/hero/cloud.png"
 
 const Hero = () => {
   return (
     <section className="hero-section">
+      <img src={cloud} alt="cloud" className="hero-cloud1" />
+      <img src={cloud} alt="cloud" className="hero-cloud2" />
+      <img src={cloud} alt="cloud" className="hero-cloud3" />
+
       <div className="hero-content">
         <div className="text-bulb">
           <div>We Provide Smart Business  Solutions</div> <img src={bulb} className="floating bulb" alt="bulb" /> 
