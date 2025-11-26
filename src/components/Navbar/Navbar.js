@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.scss";
 import logo from "../../assets/images/hero/logo.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -9,18 +10,11 @@ const Navbar = () => {
         <img src={logo} alt="app-logo" height={49} width={125}></img>
       </div>
 
-      {/* <ul className="nav-links">
-        <li>Home</li>
-        <li>Client</li>
-        <li>Services</li>
-        <li>Project</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul> */}
-
       <ul className="nav-links">
         <li>
-          Home <span className="chevron">›</span>
+          <Link to="hero" smooth={true} duration={600} offset={-50}>
+            Home <span className="chevron">›</span>
+          </Link>
         </li>
         <li>
           Client <span className="chevron">›</span>
@@ -35,7 +29,9 @@ const Navbar = () => {
           About <span className="chevron">›</span>
         </li>
         <li>
-          Contact <span className="chevron">›</span>
+          <Link to="contact" smooth={true} duration={600} offset={-50}>
+            Contact<span className="chevron">›</span>
+          </Link>
         </li>
       </ul>
 

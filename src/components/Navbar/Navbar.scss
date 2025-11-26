@@ -45,6 +45,16 @@
     gap: 10px;
   }
 
+  .nav-links a {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
   .chevron {
     font-size: 25px;
     width: -0.5vw;

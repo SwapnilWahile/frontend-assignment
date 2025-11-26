@@ -7,7 +7,7 @@ import cloud from "../../assets/images/hero/cloud.png"
 
 const Hero = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="hero">
       <img src={cloud} alt="cloud" className="hero-cloud1" />
       <img src={cloud} alt="cloud" className="hero-cloud2" />
       <img src={cloud} alt="cloud" className="hero-cloud3" />
